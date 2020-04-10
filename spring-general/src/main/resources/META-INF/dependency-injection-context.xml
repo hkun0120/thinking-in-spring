@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="people" class="ioc.overview.dependency.bean.People">
+    <bean id="people" class="ioc.overview.dependency.bean.bean.People">
         <property name="age" value="20"></property>
         <property name="name" value="china"></property>
     </bean>

@@ -14,7 +14,9 @@ import java.util.Map;
 
 /**
  * @description: {@link org.springframework.beans.factory.config.BeanDefinition} 构建示例
- * @author: H.K
+ * 什么是Spring Bean Definition?
+ *
+ *  @author: H.K
  * @program: thinking-in-spring
  * @create: 2020-04-07 13:41
  */
