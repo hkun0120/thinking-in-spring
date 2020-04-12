@@ -12,10 +12,7 @@
     <artifactId>spring-bean</artifactId>
     <description>spring bean 基础</description>
     <dependencies>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-        </dependency>
+
 
         <dependency>
             <groupId>${groupId}</groupId>

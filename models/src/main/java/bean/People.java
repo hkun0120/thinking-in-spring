@@ -1,18 +1,22 @@
 package bean;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
-
 /**
  * @description: TODO
  * @author: H.K
  * @program: think-in-spring
  * @create: 2020-04-03 22:14
  */
-@Component
 public class People {
     private String name;
     private String age;
+
+    public People() {
+    }
+
+    public People(String name, String age) {
+        this.name = name;
+        this.age = age;
+    }
 
     public static People createUser() {
         return new People();

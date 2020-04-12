@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="people" class="bean.People">
+        <property name="age" value="20"></property>
+        <property name="name" value="china"></property>
+    </bean>
+
+    <bean id="people-constructor" name="people2" class="bean.People">
+        <constructor-arg  name="name" value="21"></constructor-arg>
+        <constructor-arg  name="age" value="kk"></constructor-arg>
+
+    </bean>
+    <bean class="bean.People" autowire="constructor"></bean>
+    <bean class="bean.People" autowire="constructor">
+        <constructor-arg  name="name" value="20000"></constructor-arg>
+        <constructor-arg  name="age" value="kk0000"></constructor-arg>
+    </bean>
+</beans>
