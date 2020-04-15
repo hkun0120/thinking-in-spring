@@ -3,11 +3,15 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="people" class="bean.People">
+    <bean id="people" class="bean.People" primary="true">
         <property name="age" value="20"></property>
         <property name="name" value="china"></property>
     </bean>
-
+    <bean id="businessMan" class="bean.BusinessMan">
+        <property name="age" value="26"></property>
+        <property name="name" value="china"></property>
+        <property name="industry" value="china"></property>
+    </bean>
     <bean id="people-constructor" name="people2" class="bean.People">
         <constructor-arg  name="name" value="21"></constructor-arg>
         <constructor-arg  name="age" value="kk"></constructor-arg>
