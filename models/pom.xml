@@ -11,6 +11,10 @@
 
     <artifactId>models</artifactId>
     <packaging>jar</packaging>
+    <dependencies>
+
+    </dependencies>
+
 
 
 </project>
